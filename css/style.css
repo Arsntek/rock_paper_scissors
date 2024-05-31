@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: blanchedalmond;
+}
+
+h1{
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-score{
+  min-height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-score article{
+  min-width: 120px;
+}
+
+.section-score h2{
+  text-align: center;
+}
+
+.section-score article p{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.section-choices{
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-choices button{
+  width: 90px;
+  padding: 5px;
+  background-color: powderblue;
+}
+
+.section-message{
+  margin-top: 20px;
+}
+
+.section-message p{
+  text-align: center;
+}
